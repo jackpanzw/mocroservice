@@ -1,0 +1,16 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
+server:
+  port: 8761
+eureka:
+  client:
+    #关闭eureka客户端，只作为server
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+      #浏览器查看地址 http://user:password123@localhost:8761
