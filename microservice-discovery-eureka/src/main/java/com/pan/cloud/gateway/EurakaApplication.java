@@ -24,5 +24,9 @@ public class EurakaApplication {
         type sdfad = new type();
         type sdf = new type();
         
+        type abc = new type();
+        
+        type abc = new type();
+        
     }
 }
