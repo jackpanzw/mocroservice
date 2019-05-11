@@ -15,12 +15,14 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class EurakaApplication {
     public static void main(String[] args) {
-    	type name = new type();
+    	type scd = new type();
     	type name3 = new type();
         SpringApplication.run(EurakaApplication.class);
-       
-        type name2 = new type();
-         type name4 = new type();
+        
+        type abc = new type();
+        
+        type sdfad = new type();
+        type sdf = new type();
         
     }
 }
